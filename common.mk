@@ -78,7 +78,11 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     libsecmfcdecapi \
     libsecmfcencapi
-
+	
+# SamsungDoze service
+PRODUCT_PACKAGES += \
+    SamsungDoze
+ 
 # OMX
 PRODUCT_PACKAGES += \
     libstagefrighthw \
